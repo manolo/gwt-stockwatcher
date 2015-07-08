@@ -79,7 +79,7 @@ public class StockWatcher implements EntryPoint {
     Timer refreshTimer = new Timer() {
       @Override
       public void run() {
-        refreshWatchListServer();
+        refreshWatchList();
       }
     };
     refreshTimer.scheduleRepeating(REFRESH_INTERVAL);
