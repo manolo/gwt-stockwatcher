@@ -10,15 +10,4 @@
     <welcome-file>StockWatcher.html</welcome-file>
   </welcome-file-list>
   
-  <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.google.gwt.sample.stockwatcher.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/stockwatcher/greet</url-pattern>
-  </servlet-mapping>
-
 </web-app>
